@@ -1,0 +1,21 @@
+<?php
+namespace $NAMESPACE$;
+
+use TopicCRM\core\TopicBaseServiceProvider;
+
+class $CLASS$ extends TopicBaseServiceProvider
+{
+    /**
+     * @inheritDoc
+     */
+    public function initPackageBoot()
+    {
+    }
+
+    /**
+     * @inheritDoc
+     */
+    public function initPackageRegister()
+    {
+    }
+}

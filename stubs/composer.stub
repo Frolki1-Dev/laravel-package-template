@@ -1,0 +1,27 @@
+{
+    "name": "topiccrm/$NAME$",
+    "description": "$DESCRIPTION$",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Frank Giger",
+            "email": "18479991+Frolki1-Dev@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "$SERVICE_PROVIDER$"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "$NAMESPACE$": "src/"
+        }
+    }
+}
